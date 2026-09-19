@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Analytics Practical</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            margin-top: 80px;
+            background-color: #f5f5f5;
+        }
+
+        .box {
+            background: white;
+            padding: 30px;
+            width: 500px;
+            margin: auto;
+            border-radius: 10px;
+        }
+
+        button {
+            padding: 12px 25px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="box">
+
+    <h1>Web Analytics Practical</h1>
+
+    <p>This website is created to demonstrate website performance
+    and user interaction tracking using Google Analytics 4.</p>
+
+    <h2>Experiment 7</h2>
+
+    <button onclick="buttonClicked()">
+        Click Me
+    </button>
+
+    <p id="message"></p>
+
+</div>
+
+<script>
+function buttonClicked() {
+    document.getElementById("message").innerHTML =
+        "Button click recorded!";
+}
+</script>
+
+</body>
+</html>
